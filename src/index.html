@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="component.jsplumbDemo">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>JSPlumb Demo</title>
+
+  <!-- inject:styles:css -->
+  <!-- endinject -->
+
+</head>
+
+<body class="home">
+
+<div class="container" id="content" ng-controller="jsplumbDemoMockCtrl as vm" ng-cloak>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div jsplumb-demo></div>
+    </div>
+  </div>
+
+</div>
+<!-- /container -->
+
+<!--This Component's Scripts-->
+<!-- inject:component:js -->
+<script src="jsplumbDemo.dependency.js"></script>
+<script src="jsplumbDemo.component.js"></script>
+<!-- endinject -->
+
+</body>
+</html>

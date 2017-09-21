@@ -1,0 +1,18 @@
+{
+  "appComponentPath": "../reference-library/app/lib/components/jsplumb-demo",
+  "componentBuildPath": "../reference-library/app/lib/build",
+  "componentName": "jsplumbDemo",
+  "production": true,
+  "paths": {
+    "src": "src",
+    "images": "src/images",
+    "scss": "src/scss",
+    "dist": "dist",
+    "templates": "src/templates",
+    "nodeModules": "node_modules",
+    "karmaConfig":"test/config",
+    "coverage": "coverage",
+    "docs": "docs",
+    "fonts": "src/fonts"
+  }
+}
